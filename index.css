@@ -1,0 +1,52 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+#about {
+    background-color: #ffffff;
+}
+
+#experience {
+    background-color: #f8f9fa;
+}
+
+#education {
+    background-color: #ffffff;
+}
+
+#projects {
+    background-color: #f8f9fa;
+}
+
+#contact {
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
