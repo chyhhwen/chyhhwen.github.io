@@ -1,52 +1,22 @@
-/* Add your CSS styles here */
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+ul li
+{
+    list-style-type:none;
+}
+nav
+{
+    box-shadow:0 5px 5px 3px rgb(202, 201, 201);
+}
+nav a:hover
+{
+    background-color: rgb(255, 145, 0);
 }
 
-header {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
+a
+{
+    color: inherit;
+    text-decoration: none;
 }
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-section {
-    padding: 20px;
-}
-
-#about {
-    background-color: #ffffff;
-}
-
-#experience {
-    background-color: #f8f9fa;
-}
-
-#education {
-    background-color: #ffffff;
-}
-
-#projects {
-    background-color: #f8f9fa;
-}
-
-#contact {
-    background-color: #ffffff;
-}
-
-footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
+a:hover
+{
+    background-color: rgb(255, 145, 0);
 }
