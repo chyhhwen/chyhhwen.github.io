@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="395e2b9a-f61f-413c-b258-57ac41968043" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gitpush.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gitpush.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/2001w/Desktop/blog",
+    "last_opened_file_path": "C:/xampp/htdocs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +54,8 @@
       <workItem from="1702015166331" duration="4132000" />
       <workItem from="1702126770959" duration="29000" />
       <workItem from="1702298562729" duration="10000" />
+      <workItem from="1703396700130" duration="378000" />
+      <workItem from="1703397181494" duration="15000" />
     </task>
     <servers />
   </component>

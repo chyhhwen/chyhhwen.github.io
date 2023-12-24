@@ -4,5 +4,4 @@ git config --global user.name "chyhhwen"
 git checkout dev
 git add -A
 git commit -m "test"
-git push 
-pause
+git push
