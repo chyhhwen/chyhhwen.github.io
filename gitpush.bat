@@ -4,5 +4,5 @@ git config --global user.name "chyhhwen"
 git checkout dev
 git add -A
 git commit -m "test"
-git push -u origin master
+git push 
 pause
