@@ -1,22 +1,137 @@
-ul li
+body
 {
-    list-style-type:none;
-}
-nav
-{
-    box-shadow:0 5px 5px 3px rgb(202, 201, 201);
-}
-nav a:hover
-{
-    background-color: rgb(255, 145, 0);
+    width: 90vw;
+    margin:0%;
+    background:conic-gradient(#e8d5d5, #ece3df, #e7e7da, #d3e0d3, #e8d5d5, #ece3df, #e7e7da, #d3e0d3);
 }
 
-a
+.container
 {
-    color: inherit;
-    text-decoration: none;
+    width: 95vw;
+    margin: 2vh 2.5vw 2vh 2.5vw;
+    display: flex;
 }
-a:hover
+
+.resume
 {
-    background-color: rgb(255, 145, 0);
+    width: 30%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
+    position: fixed;
+
+    .img
+    {
+        width:50%;
+        height:30%;
+        margin: 0% 25% 0% 25%;
+        position: absolute;
+
+        & img
+        {
+            width:100%;
+            height:100%;
+            border-radius:5%;
+        }
+    }
+
+    .data
+    {
+        width:90%;
+        height:90%;
+        margin: 20% 5% 0 5%;
+        border-radius:2%;
+        background-color: aliceblue;
+
+        .name
+        {
+            margin-top:35%;
+            text-align:center;
+            font-size:150%;
+        }
+        .contant
+        {
+            background-color: #e7ecec;
+            width: 80%;
+            height: 65%;
+            margin: 5% 0 0 10%;
+            border-radius:2%;
+            text-align: center;
+            font-size:120%;
+        }
+    }
 }
+
+nav
+{
+    border-radius: 5px;
+    width:50%;
+    height:10%;
+    margin: 10% 0 1% 50%;
+    padding-bottom: 1%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+
+    & a
+    {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        color:black;
+    }
+
+    & a:hover
+    {
+        background-color: rgb(255, 145, 0);
+    }
+
+    & ul
+    {
+        width: 100%;
+        padding:0%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    & li
+    {
+        list-style-type:none;
+        font-size: 130%;
+
+        & svg
+        {
+            width: 15%;
+            height:70%;
+            margin: auto;
+            display: block;
+        }
+
+        & span
+        {
+            text-align:center;
+            font-weight: bold;
+        }
+    }
+}
+
+.main
+{
+    width: 70%;
+    height: 95vh;
+    margin-left: 30%;
+    .text
+    {
+        width: 97.5%;
+        height:72.5%;
+        margin-left:2.5%;
+        background-color: aliceblue;
+        border-radius: 5px;
+    }
+}
+
+
+
