@@ -152,6 +152,27 @@ nav
             }
         }
     }
+
+    .box
+     {
+        width:90%;
+        height:25%;
+        margin:1% 5% 1% 5%;
+        display: flex;
+        .github
+        {
+            width:48%;
+            height:100%;
+            margin:0 1% 0 1%;
+            border-radius: 5px;
+
+            & img
+            {
+                width: 100%;
+                height:100%;
+            }
+        }
+     }
     .excitation
     {
         margin:3% 0 3% 0;
